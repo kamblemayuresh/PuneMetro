@@ -1,0 +1,49 @@
+body{
+    background-image: url(./joel-de-vriend-qZ6if8WXl7E-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.in{
+    margin-left: 250px;
+    margin-top: 200px;
+    height: 450px;
+    width: 520px;
+    padding-left: 126px;
+    padding-top: 2px;
+    border-radius: 10px;
+    color:rgb(249, 250, 250) ;
+    font-weight: bolder;
+    opacity: 0.9;
+    background-color: #3d3737f6;
+    
+}
+h1{
+    padding-left: 207px;
+    margin-top: 90px;
+    margin-left: -72px;
+}
+.input{
+    margin-top: 17px;
+    padding-left: 10px;
+    border-radius: 8px;
+    height:60px;
+    width: 350px;
+    border: none;
+    background-color: rgba(255, 248, 220, 0.677);
+}
+.input::placeholder{
+    padding-left: 12px;
+    height: 40px;
+    color: rgb(2, 2, 2);
+}
+.button{
+    margin-left: 118px;
+    margin-top: 48px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    background-color: #1c0a10;
+    color: white;
+    font-size: 19px;
+}
