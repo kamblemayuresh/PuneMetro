@@ -1,0 +1,83 @@
+body {
+    background-image: url(../images/blue_train.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    height: 5vh; /* Use relative unit */
+    background-color: rgba(240, 255, 255, 0.883);
+    color: rgb(143, 10, 10);
+}
+
+img {
+    margin-top: 5vh; /* Use relative unit */
+    margin-left: 4vw; /* Use relative unit */
+    background-color: rgba(245, 245, 245, 0.798);
+    border-radius: 50%; /* Adjusted border-radius value */
+}
+
+.name {
+    color: white;
+}
+
+h2 {
+    margin-left: -15vw; /* Use relative unit */
+    font-weight: bolder;
+    font-size: 3vw; /* Use relative unit */
+    color: rgb(1, 22, 22);
+}
+
+.in {
+    margin-left: 40vw; /* Use relative unit */
+    margin-top: -40vh; /* Use relative unit */
+    height:fit-content;
+    width: 40vw; /* Use relative unit */
+    padding: 3vw; /* Use relative units */
+    border-radius: 20px;
+    color: rgb(161, 84, 29);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    opacity: 0.9;
+    font-family: cursive;
+    background-color: rgba(196, 196, 215, 0.552);
+}
+
+.input {
+    margin-top: 1vh; /* Use relative unit */
+    border-radius: 8px;
+    height: 8vh; /* Use relative unit */
+    width: 80%; /* Use relative unit */
+    max-width: 350px; /* Limit the width */
+    border: none;
+    background-color: rgba(243, 243, 243, 0.766);
+}
+
+.input::placeholder {
+    padding-left: 1vw; /* Use relative unit */
+    font-size: 1.5vw; /* Use relative unit */
+    font-style: normal;
+    color: black;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh; /* Use relative unit */
+    height: 5vh; /* Use relative unit */
+    width: 40%; /* Use relative unit */
+    max-width: 200px; /* Limit the width */
+    border-radius: 8px;
+    font-size: 1.5vw; /* Use relative unit */
+    background-color: rgba(69, 224, 244, 0.721);
+}
+
+.footer {
+    margin-top: 10vh; /* Use relative unit */
+    background-color: rgba(98, 197, 233, 0.611);
+    color: rgb(235, 240, 240);
+    height: 5vh; /* Use relative unit */
+    font-size: 3vw; /* Use relative unit */
+    font-weight: bolder;
+}
